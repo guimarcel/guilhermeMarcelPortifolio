@@ -1,20 +1,20 @@
 import styled from "styled-components";
 
-import backgroundImage from '../../public/background.jpeg'; // Adjust the path according to your project structure
+import backgroundImage from '../../public/bg.jpeg';
 
 export const Background = styled.div`
   background-image: url(${backgroundImage});
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: "#dddd";
   height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
 `;
 
 export const Container = styled.div`
+  margin-top:40px;
+  width:50%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -45,18 +45,7 @@ export const Description = styled.p`
   margin-bottom: 2rem;
 `;
 
-export const Button = styled.button`
-  font-size: 1rem;
-  font-weight: bold;
-  color: #ffffff;
-  background-color: #3f3f3f;
-  padding: 0.5rem 2rem;
-  border: none;
-  border-radius: 10px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-
-  &:hover {
-    background-color: #707070;
-  }
+export const ContainerImage = styled.div`
+  max-height: 330px;
+  overflow: hidden;
 `;
