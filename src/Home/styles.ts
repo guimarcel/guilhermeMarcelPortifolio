@@ -35,14 +35,14 @@ export const Subtitle = styled.h2`
   font-size: 1.3rem;
   font-weight: bold;
   color: #3f3f3f;
-  margin-bottom: 1rem;
+  margin-bottom: 0px;
 `;
 
 export const Description = styled.p`
   font-size: 1rem;
   color: #3f3f3f;
   text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom:0px;
 `;
 
 export const ContainerImage = styled.div`
